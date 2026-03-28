@@ -1,11 +1,14 @@
 {
-  "name": "ducattichef-backend",
+  "name": "ducattichef-backend2",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "express": "^4.18.2",
-    "multer": "^1.4.5",
+    "multer": "1.4.5-lts.1",
     "openai": "^4.0.0",
     "cors": "^2.8.5"
   }
